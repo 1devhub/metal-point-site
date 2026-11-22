@@ -480,7 +480,7 @@ document.getElementById('successClose').addEventListener('click', closeModal);
 
 // Messenger links: real hrefs instead of window.open (never blocked as popups)
 const messengerMsg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
-const whatsappUrl = `https://wa.me/${CONFIG.whatsapp}?text=${messengerMsg}`;
+const whatsappUrl = `https://api.whatsapp.com/send?phone=${CONFIG.whatsapp}&text=${messengerMsg}`;
 const telegramUrl = `https://t.me/${CONFIG.telegram}?text=${messengerMsg}`;
 
 function setMessengerLink(id, url) {
