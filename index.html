@@ -3,8 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MetalPoint | Выкуп металлов</title>
+    <title>Выкуп металла в Москве, МО и Видном — MetalPoint</title>
+    <meta name="description" content="Пункт приёма металлолома в Видном и Московской области: выкупаем медь, алюминий, провода и лом. Бесплатный вывоз по Москве и МО, точные весы, расчёт в день обращения. +7 926 411-36-86">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="RU-MOW">
+    <meta name="geo.placename" content="Видное, Московская область">
+    <link rel="canonical" href="https://1devhub.github.io/metallpro-site/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.svg">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="MetalPoint">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="Выкуп металла в Москве, МО и Видном — MetalPoint">
+    <meta property="og:description" content="Выкупаем медь, алюминий, провода и лом. Бесплатный вывоз по Москве и Московской области, расчёт в день обращения.">
+    <meta property="og:url" content="https://1devhub.github.io/metallpro-site/">
+    <meta property="og:image" content="https://1devhub.github.io/metallpro-site/images/metal-coils.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Выкуп металла в Москве, МО и Видном — MetalPoint">
+    <meta name="twitter:description" content="Выкупаем медь, алюминий, провода и лом с бесплатным вывозом по Москве и Московской области.">
+    <meta name="twitter:image" content="https://1devhub.github.io/metallpro-site/images/metal-coils.jpg">
+
     <link rel="stylesheet" href="style.css?v=3">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "MetalPoint",
+        "description": "Выкуп металла и металлолома в Москве, Московской области и Видном.",
+        "url": "https://1devhub.github.io/metallpro-site/",
+        "telephone": "+79264113686",
+        "email": "metal.priyom1@gmail.com",
+        "priceRange": "₽₽",
+        "image": "https://1devhub.github.io/metallpro-site/images/metal-coils.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Тамбовская ул., д. 85",
+            "addressLocality": "Видное",
+            "addressRegion": "Московская область",
+            "addressCountry": "RU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 55.5571496,
+            "longitude": 37.7087142
+        },
+        "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "10:00",
+            "closes": "22:00"
+        }],
+        "areaServed": [
+            { "@type": "City", "name": "Москва" },
+            { "@type": "AdministrativeArea", "name": "Московская область" },
+            { "@type": "City", "name": "Видное" },
+            { "@type": "City", "name": "Подольск" },
+            { "@type": "City", "name": "Красногорск" },
+            { "@type": "City", "name": "Химки" },
+            { "@type": "City", "name": "Балашиха" }
+        ]
+    }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body>
@@ -37,11 +97,11 @@
 
     <!-- HERO -->
     <section id="home" class="hero">
-        <img src="images/crane-magnet.png" class="hero-decor decor-left" alt="">
-        <img src="images/copper-pipes.jpg" class="hero-decor decor-right" alt="">
+        <img src="images/crane-magnet.png" class="hero-decor decor-left" alt="Кран-магнит на пункте приёма металлолома MetalPoint" loading="lazy" decoding="async">
+        <img src="images/copper-pipes.jpg" class="hero-decor decor-right" alt="Медные трубы — выкуп меди в Москве и области" loading="lazy" decoding="async">
         <div class="container">
-            <h1 data-i18n="hero_title">Выкупаем металл по лучшим ценам</h1>
-            <p data-i18n="hero_subtitle">Медь, алюминий, провода, лом и другие цветные металлы</p>
+            <h1 data-i18n="hero_title">Выкуп металла в Москве и Московской области</h1>
+            <p data-i18n="hero_subtitle">Медь, алюминий, провода и лом — выкупаем в Видном, Москве и области с бесплатным вывозом</p>
             <div class="hero-buttons">
                 <button id="openQuoteModal" class="btn btn-primary" data-i18n="hero_btn_quote">[Получить оценку]</button>
                 <button id="openCallModal" class="btn btn-secondary" data-i18n="hero_btn_call">[Позвонить]</button>
@@ -51,8 +111,8 @@
 
     <!-- PRICES -->
     <section id="prices" class="prices">
-        <img src="images/metal-coils.jpg" class="section-decor decor-left" alt="">
-        <img src="images/cable-bundle.jpg" class="section-decor decor-right" alt="">
+        <img src="images/metal-coils.jpg" class="section-decor decor-left" alt="Рулоны металла, текущие цены на металлолом" loading="lazy" decoding="async">
+        <img src="images/cable-bundle.jpg" class="section-decor decor-right" alt="Кабельный лом — выкуп проводов и кабеля" loading="lazy" decoding="async">
         <div class="container">
             <div class="prices-header">
                 <div>
@@ -145,8 +205,8 @@
 
     <!-- SERVICES -->
     <section id="services" class="services">
-        <img src="images/steel-scrap.jpg" class="section-decor decor-left" alt="">
-        <img src="images/stainless-pipes.jpg" class="section-decor decor-right" alt="">
+        <img src="images/steel-scrap.jpg" class="section-decor decor-left" alt="Стальной лом и чёрный металл" loading="lazy" decoding="async">
+        <img src="images/stainless-pipes.jpg" class="section-decor decor-right" alt="Трубы из нержавеющей стали — выкуп нержавейки" loading="lazy" decoding="async">
         <div class="container">
             <h2 data-i18n="services_title">Наши услуги</h2>
             <div class="services-grid">
@@ -176,14 +236,14 @@
 
     <!-- ABOUT -->
     <section id="about" class="about">
-        <img src="images/brass-fittings.jpg" class="section-decor decor-left" alt="">
-        <img src="images/metal-shavings.jpg" class="section-decor decor-right" alt="">
+        <img src="images/brass-fittings.jpg" class="section-decor decor-left" alt="Латунные фитинги — выкуп латуни" loading="lazy" decoding="async">
+        <img src="images/metal-shavings.jpg" class="section-decor decor-right" alt="Металлическая стружка и отходы цветных металлов" loading="lazy" decoding="async">
         <div class="container">
             <h2 data-i18n="about_title">О компании</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p data-i18n="about_p1">Мы работаем на рынке металлолома более 10 лет. Наша компания специализируется на выкупе цветных и черных металлов.</p>
-                    <p data-i18n="about_p2">Мы предлагаем честные цены, быстрое обслуживание и удобные условия сотрудничества.</p>
+                    <p data-i18n="about_p1">Мы работаем на рынке металлолома более 10 лет. Выкупаем цветные и чёрные металлы в Видном, Москве и Московской области.</p>
+                    <p data-i18n="about_p2">Бесплатный вывоз с объекта, точные весы и расчёт в день обращения. Работаем в Видном, Подольске, Красногорске, Химках, Мытищах, Балашихе, Люберцах и других городах Московской области.</p>
                     <div class="about-stats">
                         <div class="stat">
                             <div class="stat-number">10+</div>
@@ -396,6 +456,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
+                <p class="footer-geo" data-i18n="footer_geo">Выкуп металла в Москве, Московской области и Видном — MetalPoint</p>
                 <p data-i18n="footer_copy">© 2026 МеталлПро. Все права защищены.</p>
             </div>
         </div>
@@ -497,6 +558,6 @@
     <!-- BACK TO TOP -->
     <button id="backToTop" class="back-to-top" title="Наверх">↑</button>
 
-    <script src="script.js?v=5"></script>
+    <script src="script.js?v=6"></script>
 </body>
 </html>

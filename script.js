@@ -10,8 +10,8 @@ const translations = {
         nav_contact: 'Контакты',
 
         // Hero
-        hero_title: 'Выкупаем металл по лучшим ценам',
-        hero_subtitle: 'Медь, алюминий, провода, лом и другие цветные металлы',
+        hero_title: 'Выкуп металла в Москве и Московской области',
+        hero_subtitle: 'Медь, алюминий, провода и лом — выкупаем в Видном, Москве и области с бесплатным вывозом',
         hero_btn_quote: 'Получить оценку',
         hero_btn_call: 'Позвонить',
 
@@ -60,8 +60,8 @@ const translations = {
 
         // About
         about_title: 'О компании',
-        about_p1: 'Мы работаем на рынке металлолома более 10 лет. Наша компания специализируется на выкупе цветных и черных металлов.',
-        about_p2: 'Мы предлагаем честные цены, быстрое обслуживание и удобные условия сотрудничества.',
+        about_p1: 'Мы работаем на рынке металлолома более 10 лет. Выкупаем цветные и чёрные металлы в Видном, Москве и Московской области.',
+        about_p2: 'Бесплатный вывоз с объекта, точные весы и расчёт в день обращения. Работаем в Видном, Подольске, Красногорске, Химках, Мытищах, Балашихе, Люберцах и других городах Московской области.',
         stat_years: 'Лет на рынке',
         stat_clients: 'Клиентов',
         stat_support: 'Поддержка',
@@ -105,6 +105,7 @@ const translations = {
         status_closed: 'Закрыто',
 
         // Footer
+        footer_geo: 'Выкуп металла в Москве, Московской области и Видном — MetalPoint',
         footer_copy: '© 2026 MetalPoint. Все права защищены.'
     },
 
@@ -118,8 +119,8 @@ const translations = {
         nav_contact: 'Contact',
 
         // Hero
-        hero_title: 'We buy metal at the best prices',
-        hero_subtitle: 'Copper, aluminum, wires, scrap and other metals',
+        hero_title: 'Metal Recycling in Moscow and Moscow Region',
+        hero_subtitle: 'Copper, aluminum, wires and scrap — we buy in Vidnoye, Moscow and the region with free pickup',
         hero_btn_quote: 'Get Quote',
         hero_btn_call: 'Call Us',
 
@@ -168,8 +169,8 @@ const translations = {
 
         // About
         about_title: 'About Company',
-        about_p1: 'We have been in the scrap metal market for over 10 years. Our company specializes in purchasing non-ferrous and ferrous metals.',
-        about_p2: 'We offer fair prices, fast service and convenient cooperation terms.',
+        about_p1: 'We have been in the scrap metal market for over 10 years. We buy ferrous and non-ferrous metals in Vidnoye, Moscow and Moscow region.',
+        about_p2: 'Free pickup, accurate weighing and same-day payment. We serve Vidnoye, Podolsk, Krasnogorsk, Khimki, Mytishchi, Balashikha, Lyubertsy and other cities of Moscow region.',
         stat_years: 'Years in market',
         stat_clients: 'Clients',
         stat_support: 'Support',
@@ -213,6 +214,7 @@ const translations = {
         status_closed: 'Closed',
 
         // Footer
+        footer_geo: 'Metal recycling in Moscow, Moscow region and Vidnoye — MetalPoint',
         footer_copy: '© 2026 MetalPoint. All rights reserved.'
     }
 };
