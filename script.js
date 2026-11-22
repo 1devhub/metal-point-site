@@ -478,18 +478,27 @@ quoteForm.addEventListener('submit', async (e) => {
 // Success close
 document.getElementById('successClose').addEventListener('click', closeModal);
 
-// Messenger links
-document.getElementById('modalWhatsApp').addEventListener('click', (e) => {
-    e.preventDefault();
-    const msg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
-    window.open(`https://wa.me/${CONFIG.whatsapp}?text=${msg}`, '_blank');
-});
+// Messenger links: real hrefs instead of window.open (never blocked as popups)
+const messengerMsg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
+const whatsappUrl = `https://wa.me/${CONFIG.whatsapp}?text=${messengerMsg}`;
+const telegramUrl = `https://t.me/${CONFIG.telegram}?text=${messengerMsg}`;
 
-document.getElementById('modalTelegram').addEventListener('click', (e) => {
-    e.preventDefault();
-    const msg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
-    window.open(`https://t.me/${CONFIG.telegram}?text=${msg}`, '_blank');
-});
+function setMessengerLink(id, url) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.href = url;
+    el.target = '_blank';
+    el.rel = 'noopener noreferrer';
+}
+
+setMessengerLink('modalWhatsApp', whatsappUrl);
+setMessengerLink('modalTelegram', telegramUrl);
+setMessengerLink('callWhatsApp', whatsappUrl);
+setMessengerLink('callTelegram', telegramUrl);
+setMessengerLink('floatWhatsApp', whatsappUrl);
+setMessengerLink('floatTelegram', telegramUrl);
+setMessengerLink('footerWhatsApp', whatsappUrl);
+setMessengerLink('footerTelegram', telegramUrl);
 
 // ===== CALL MODAL =====
 const callModal = document.getElementById('callModal');
@@ -536,19 +545,6 @@ callModal.addEventListener('click', (e) => {
 document.getElementById('callPhoneLink').href = `tel:+${CONFIG.whatsapp}`;
 document.querySelector('.call-phone-number').textContent = `+7 926 411-36-86`;
 
-// WhatsApp/Telegram links in off-time modal
-document.getElementById('callWhatsApp').addEventListener('click', (e) => {
-    e.preventDefault();
-    const msg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
-    window.open(`https://wa.me/${CONFIG.whatsapp}?text=${msg}`, '_blank');
-});
-
-document.getElementById('callTelegram').addEventListener('click', (e) => {
-    e.preventDefault();
-    const msg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
-    window.open(`https://t.me/${CONFIG.telegram}?text=${msg}`, '_blank');
-});
-
 // ===== HEADER STATUS (OPEN/CLOSED) =====
 function updateHeaderStatus() {
     const statusEl = document.getElementById('headerStatus');
@@ -568,17 +564,7 @@ function updateHeaderStatus() {
 }
 
 // ===== FLOATING BUTTONS =====
-document.getElementById('floatWhatsApp').addEventListener('click', (e) => {
-    e.preventDefault();
-    const msg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
-    window.open(`https://wa.me/${CONFIG.whatsapp}?text=${msg}`, '_blank');
-});
-
-document.getElementById('floatTelegram').addEventListener('click', (e) => {
-    e.preventDefault();
-    const msg = encodeURIComponent('Здравствуйте! Хочу оценить металл.');
-    window.open(`https://t.me/${CONFIG.telegram}?text=${msg}`, '_blank');
-});
+// Links are initialized in the messenger links section above.
 
 // ===== BACK TO TOP =====
 const backToTop = document.getElementById('backToTop');
