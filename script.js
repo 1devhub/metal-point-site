@@ -105,8 +105,8 @@ const translations = {
         status_closed: 'Закрыто',
 
         // Footer
-        footer_geo: 'Выкуп металла в Москве, Московской области и Видном — MetalPoint',
-        footer_copy: '© 2026 MetalPoint. Все права защищены.'
+        footer_geo: 'Металл Поинт — выкуп металла в Москве, Московской области и Видном',
+        footer_copy: '© 2026 Металл Поинт. Все права защищены.'
     },
 
     en: {
