@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://1devhub.github.io/metallpro-site/sitemap.xml
+Sitemap: https://metal-point.ru/sitemap.xml
