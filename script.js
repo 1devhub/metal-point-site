@@ -10,8 +10,8 @@ const translations = {
         nav_contact: 'Контакты',
 
         // Hero
-        hero_title: 'Выкуп металла в Москве и Московской области',
-        hero_subtitle: 'Медь, алюминий, провода и лом — выкупаем в Видном, Москве и области с бесплатным вывозом',
+        hero_title: 'Приём металла и металлолома в Москве, Московской области и Видном',
+        hero_subtitle: 'Медь, алюминий, провода, кабель и лом — принимаем в Видном, Москве и МО с бесплатным вывозом и расчётом в день обращения',
         hero_btn_quote: 'Получить оценку',
         hero_btn_call: 'Позвонить',
 
@@ -57,6 +57,31 @@ const translations = {
         service_recycle_title: 'Переработка',
         service_recycle_desc: 'Экологичная переработка металлических отходов',
         btn_details: 'Подробнее',
+
+        // Priem / SEO content
+        priem_title: 'Приём металлолома в Видном, Москве и Московской области',
+        priem_p1: 'Пункт приёма «Металл Поинт» принимает цветной и чёрный металлолом от частных лиц, предприятий и строительных площадок. Медь, алюминий, латунь, нержавейка, сталь, провода и кабель — взвешиваем на точных весах и оплачиваем сразу.',
+        priem_p2: 'Мы работаем в Видном, 5-й микрорайон, и принимаем металл из Москвы, Подольска, Красногорска, Химок, Мытищ, Балашихи, Люберец, Одинцово, Домодедово и других городов Московской области. Приезжайте сами или вызывайте бесплатный вывоз.',
+        how_title: 'Как сдать металлолом',
+        how_step1_title: 'Оставьте заявку',
+        how_step1_text: 'Позвоните по номеру +7 926 411-36-86, напишите в WhatsApp или Telegram — назовите вид и примерное количество металла.',
+        how_step2_title: 'Узнайте цену и вызовите вывоз',
+        how_step2_text: 'Мы рассчитаем предварительную стоимость и, если нужно, бесплатно приедем за ломом в Москву, Видное или любой город Московской области.',
+        how_step3_title: 'Взвешивание',
+        how_step3_text: 'На пункте приёма или прямо на объекте взвешиваем металл на точных, поверенных весах.',
+        how_step4_title: 'Получение денег',
+        how_step4_text: 'Расчёт в день обращения — наличными или безналичным переводом.',
+        faq_title: 'Частые вопросы о приёме металла',
+        faq_q1: 'Сколько стоит сдать металлолом в Москве и области?',
+        faq_a1: 'Цена зависит от вида металла, объёма и состояния. Актуальные расценки указаны выше, точную стоимость назовём по телефону +7 926 411-36-86.',
+        faq_q2: 'Вы вывозите металлолом бесплатно?',
+        faq_a2: 'Да, вывоз с объекта в Москве, Видном и Московской области бесплатный. Условия уточняются при оформлении заявки.',
+        faq_q3: 'Какие металлы вы принимаете?',
+        faq_a3: 'Принимаем медь, алюминий, латунь, бронзу, нержавейку, сталь, чугун, провода, кабель, радиаторы и другие виды цветного и чёрного лома.',
+        faq_q4: 'Когда вы платите?',
+        faq_a4: 'Сразу после взвешивания в день обращения — наличными или безналичным переводом.',
+        faq_q5: 'Где вы находитесь и когда работаете?',
+        faq_a5: 'Мы в Видном, 5-й микрорайон, координаты 55.541225, 37.695972. Работаем ежедневно с 10:00 до 22:00.',
 
         // About
         about_title: 'О компании',
@@ -105,7 +130,7 @@ const translations = {
         status_closed: 'Закрыто',
 
         // Footer
-        footer_geo: 'Металл Поинт — выкуп металла в Москве, Московской области и Видном',
+        footer_geo: 'Металл Поинт — приём металла и металлолома в Москве, Московской области и Видном',
         footer_copy: '© 2026 Металл Поинт. Все права защищены.'
     },
 
@@ -119,8 +144,8 @@ const translations = {
         nav_contact: 'Contact',
 
         // Hero
-        hero_title: 'Metal Recycling in Moscow and Moscow Region',
-        hero_subtitle: 'Copper, aluminum, wires and scrap — we buy in Vidnoye, Moscow and the region with free pickup',
+        hero_title: 'MetalPoint — Scrap Metal Collection in Moscow, Moscow Region and Vidnoye',
+        hero_subtitle: 'Copper, aluminum, wires, cables and scrap — we buy in Vidnoye, Moscow and the region with free pickup and same-day payment',
         hero_btn_quote: 'Get Quote',
         hero_btn_call: 'Call Us',
 
@@ -166,6 +191,31 @@ const translations = {
         service_recycle_title: 'Recycling',
         service_recycle_desc: 'Eco-friendly metal waste recycling',
         btn_details: 'Learn More',
+
+        // Priem / SEO content
+        priem_title: 'Scrap metal collection in Vidnoye, Moscow and Moscow region',
+        priem_p1: 'MetalPoint accepts ferrous and non-ferrous scrap from individuals, businesses and construction sites. Copper, aluminum, brass, stainless steel, steel, wires and cables are weighed on accurate scales and paid for immediately.',
+        priem_p2: 'We are located in Vidnoye, 5th microdistrict, and collect metal from Moscow, Podolsk, Krasnogorsk, Khimki, Mytishchi, Balashikha, Lyubertsy, Odintsovo, Domodedovo and other cities of Moscow region. Come to us or call for free pickup.',
+        how_title: 'How to sell scrap metal',
+        how_step1_title: 'Leave a request',
+        how_step1_text: 'Call +7 926 411-36-86, write on WhatsApp or Telegram and tell us the type and approximate amount of metal.',
+        how_step2_title: 'Get a price and order pickup',
+        how_step2_text: 'We calculate an estimate and, if needed, pick up the scrap for free in Moscow, Vidnoye or any city in Moscow region.',
+        how_step3_title: 'Weighing',
+        how_step3_text: 'We weigh the metal at our collection point or directly at your site on accurate, calibrated scales.',
+        how_step4_title: 'Get paid',
+        how_step4_text: 'Payment on the same day — cash or bank transfer.',
+        faq_title: 'FAQ about metal collection',
+        faq_q1: 'How much is scrap metal worth in Moscow and Moscow region?',
+        faq_a1: 'The price depends on the type, volume and condition of metal. Current rates are listed above; call +7 926 411-36-86 for an exact quote.',
+        faq_q2: 'Do you offer free scrap pickup?',
+        faq_a2: 'Yes, pickup from your site in Moscow, Vidnoye and Moscow region is free. Conditions are clarified when you place the request.',
+        faq_q3: 'What metals do you accept?',
+        faq_a3: 'We accept copper, aluminum, brass, bronze, stainless steel, steel, cast iron, wires, cables, radiators and other ferrous and non-ferrous scrap.',
+        faq_q4: 'When do you pay?',
+        faq_a4: 'Right after weighing on the same day — cash or bank transfer.',
+        faq_q5: 'Where are you located and when are you open?',
+        faq_a5: 'We are in Vidnoye, 5th microdistrict, coordinates 55.541225, 37.695972. Open daily from 10:00 to 22:00.',
 
         // About
         about_title: 'About Company',

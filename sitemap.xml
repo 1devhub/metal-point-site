@@ -6,4 +6,40 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://metal-point.ru/prim-metalloloma/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://metal-point.ru/vykup-metalla-moskva/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://metal-point.ru/vykup-metalla-mo/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://metal-point.ru/prim-medi/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://metal-point.ru/prim-alyuminiya/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://metal-point.ru/vyvoz-metalloloma/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
